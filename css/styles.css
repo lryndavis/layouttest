@@ -1,4 +1,138 @@
 
 
 
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: #DEDAD0;
+	letter-spacing: .03em;
+	font-family: 'Baskerville';
+	text-align: center;
+
+}
+
+.wrap { 
+	width: 750px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+
+
+.header { 
+	padding: 15px 10px 10px 15px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #1C8C8E;
+	letter-spacing: .09em;
+	word-spacing: .2em;
+	font-family: 'Futura';
+	font-size: 1.2em;
+
+
+}
+
+.header p {
+	font-size: 1.2em;
+	letter-spacing: .03em;
+	font-size: .9em;
+	color: black;
+}
+
+
+h1 { 
+	margin: 0;
+}
+
+.nav { 
+	padding: 5px 5px;
+	background: #66C5C6;
+	text-align: center;
+}
+
+
+.nav a {
+	padding: 40px;
+	font-style: italic;
+}
+
+
+.container2 { 
+	clear: left;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	background: #F8F1E9;
+}
+
+.container1 {
+	float: left;
+	width: 100%;
+	position: relative;
+	right: 50%;
+	background: #EEE8DB;
+}
+
+
+.col1 {
+	float: left;
+	width: 46%;
+	position: relative;
+	left: 52%;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+
+.col2 {
+	float: left;
+	width: 46%;
+	position: relative;
+	left: 56%;
+	overflow: hidden;
+	padding-top: 20px;
+}
+
+.col1 h2, .col2 h2 {
+	font-family: 'Futura';
+	font-size: 1em;
+}
+
+
+h2 { 
+	margin: 0 0 1em;
+}
+
+
+ul {
+	list-style-position: inside;
+	text-align: center;
+	padding: 5px;
+}
+
+li { 
+padding: 5px;
+}
+
+
+
+/*.main { 
+	float: left;
+	width: 46%;
+	position: relative;
+	right: 52%;
+	padding: 10px;
+	background: #9c9;
+
+}*/
+
+
+
+/*.sidebar { 
+	float: right;
+	width: 230px;
+	padding: 10px;
+	background: #99c;
+}*/
 
