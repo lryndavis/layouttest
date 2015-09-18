@@ -4,11 +4,11 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	color: #000;
 	background: #DEDAD0;
 	letter-spacing: .03em;
 	font-family: 'Baskerville';
 	text-align: center;
+
 
 }
 
@@ -19,6 +19,7 @@ body, html {
 }
 
 
+/*--------- Header Styling --------*/
 
 .header { 
 	padding: 15px 10px 10px 15px;
@@ -38,12 +39,16 @@ body, html {
 	letter-spacing: .03em;
 	font-size: .9em;
 	color: black;
+	margin-top: 9px;
+
 }
 
 
 h1 { 
-	margin: 0;
+	margin: 5px;
 }
+
+/*--------- Nav Styling --------*/
 
 .nav { 
 	padding: 5px 5px;
@@ -55,8 +60,12 @@ h1 {
 .nav a {
 	padding: 40px;
 	font-style: italic;
+	font-size: 19px;
+
 }
 
+
+/*--------- Columns Styling --------*/
 
 .container2 { 
 	clear: left;
@@ -64,6 +73,7 @@ h1 {
 	width: 100%;
 	overflow: hidden;
 	background: #F8F1E9;
+	line-height: 1.3em;
 }
 
 .container1 {
@@ -81,7 +91,7 @@ h1 {
 	position: relative;
 	left: 52%;
 	overflow: hidden;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 
@@ -91,7 +101,7 @@ h1 {
 	position: relative;
 	left: 56%;
 	overflow: hidden;
-	padding-top: 20px;
+	padding-top: 25px;
 }
 
 .col1 h2, .col2 h2 {
@@ -116,23 +126,16 @@ padding: 5px;
 }
 
 
+/*--------- Links Styling --------*/
+a:visited {
+	color: #1C8C8E;
+}
 
-/*.main { 
-	float: left;
-	width: 46%;
-	position: relative;
-	right: 52%;
-	padding: 10px;
-	background: #9c9;
+a:link {
+	color: #1C8C8E;
+}
 
-}*/
-
-
-
-/*.sidebar { 
-	float: right;
-	width: 230px;
-	padding: 10px;
-	background: #99c;
-}*/
+a:hover {
+	color: #fff;
+}
 
