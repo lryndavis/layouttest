@@ -4,10 +4,10 @@
 body, html {
 	margin: 0;
 	padding: 0;
-	background: #DEDAD0;
 	letter-spacing: .03em;
 	font-family: 'Baskerville';
 	text-align: center;
+	background: #F8F1E9;
 
 
 }
@@ -15,7 +15,7 @@ body, html {
 .wrap { 
 	width: 750px;
 	margin: 0 auto;
-	background: #fff;
+	
 }
 
 
@@ -26,7 +26,7 @@ body, html {
 	text-align: center;
 	text-transform: uppercase;
 	background-color: #1C8C8E;
-	letter-spacing: .09em;
+	letter-spacing: .07em;
 	word-spacing: .2em;
 	font-family: 'Futura';
 	font-size: 1.2em;
@@ -61,7 +61,7 @@ h1 {
 	padding: 40px;
 	font-style: italic;
 	font-size: 19px;
-
+	text-decoration: none;
 }
 
 
@@ -72,8 +72,10 @@ h1 {
 	float: left;
 	width: 100%;
 	overflow: hidden;
-	background: #F8F1E9;
 	line-height: 1.3em;
+	background-color: #EEE8DB
+
+	
 }
 
 .container1 {
@@ -81,7 +83,7 @@ h1 {
 	width: 100%;
 	position: relative;
 	right: 50%;
-	background: #EEE8DB;
+	background-color: #DEDAD0;
 }
 
 
